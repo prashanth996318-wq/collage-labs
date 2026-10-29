@@ -3,9 +3,9 @@
 ## Student Details
 
 ```text
-Name: YOUR_NAME_HERE
-Registration Number: YOUR_REGISTRATION_NUMBER_HERE
-Section: YOUR_SECTION_HERE
+Name: ILLA ANANTHA SRI VENKATA PRASANTH
+Registration Number: 252U1R8029
+Section: CSE(Q.E)-2A
 ```
 
 ## Live Link

@@ -2,8 +2,8 @@
 
 Repository for Backend Development Framework (BDF) lab assignments.
 
-**Student Name:** GOWTHAM YADAV  
-**Registration Number:** 252U1R8017  
+**Student Name:** ILLA ANANTHA SRI VENKATA PRASANTH
+**Registration Number:** 252U1R8029 
 **Section:** CSE-QE-2A  
 
 ---

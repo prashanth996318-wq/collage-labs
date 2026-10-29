@@ -10,8 +10,9 @@ app.get("/", (req, res) => {
 // TODO: Replace the placeholder values below with your actual Name and Section
 app.get("/about", (req, res) => {
   res.status(200).json({
-    name: "YOUR_NAME_HERE",
-    section: "YOUR_SECTION_HERE",
+    name: "ILLA ANANTHA SRI VENKATA PRASANTH",
+    registration_number: "252U1R8029",
+    section: "CSE(Q.E)-2A",
   });
 });
 

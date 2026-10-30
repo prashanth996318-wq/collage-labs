@@ -96,16 +96,37 @@ This project implements a RESTful Book Management API using **Node.js**, **Expre
 
 ## Screenshots
 
-Postman and SQLite database screenshots will be added after manual verification:
+### 1. Get All Books (`GET /books/`)
 
-- `screenshots/get-all-books.png`
-- `screenshots/get-single-book.png`
-- `screenshots/post-book.png`
-- `screenshots/put-book.png`
-- `screenshots/delete-book.png`
-- `screenshots/invalid-book-404.png`
-- `screenshots/postman-invalid-input.png`
-- `screenshots/sqlite-database.png`
+![Get all books](screenshots/get-all-books.png)
+
+### 2. Get Single Book (`GET /books/:bookId/`)
+
+![Get single book](screenshots/get-single-book.png)
+
+### 3. Create Book (`POST /books/`)
+
+![Create book](screenshots/post-book.png)
+
+### 4. Update Book (`PUT /books/:bookId/`)
+
+![Update book](screenshots/put-book.png)
+
+### 5. Delete Book (`DELETE /books/:bookId/`)
+
+![Delete book](screenshots/delete-book.png)
+
+### 6. Nonexistent Book — 404 (`GET /books/99999/`)
+
+![Invalid book 404](screenshots/invalid-book-404.png)
+
+### 7. Invalid Input — 400 (`POST /books/`)
+
+![Postman invalid input](screenshots/postman-invalid-input.png)
+
+### 8. SQLite Database Verification
+
+![SQLite database verification](screenshots/sqlite-database.png)
 
 ## Notes
 
@@ -115,4 +136,3 @@ Postman and SQLite database screenshots will be added after manual verification:
    - Check whether `sqlite3.exe` is in the system `PATH` or installed via `sqlite3` tools. In addition to supporting standard `sqlite3 database/books.db` CLI commands, reproducible SQL (`database/init.sql`) and Node/SQLite helper scripts (`database/init-db.js` and `database/inspect-db.js`) were included so database initialization and `.tables` / `.schema book` / `SELECT * FROM book;` verification can be run consistently across any terminal environment.
 2. **Preventing Accidental Duplicate Databases**:
    - Used `path.join(__dirname, "database", "books.db")` inside `server.js` so the Express server always connects to `lab-02/database/books.db` regardless of the current working directory.
-

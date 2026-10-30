@@ -59,9 +59,14 @@ https://collage-labs.onrender.com
 
 ## Screenshots
 
-Screenshots will be added after route verification.
+![Home Route](screenshots/home.png)
+
+![About Route](screenshots/about.png)
+
+![Time Route](screenshots/time.png)
+
+![404 Route](screenshots/404.png)
 
 ## Notes
 
 No issues faced during implementation. Both the plain Node.js `http` server and the Express server were tested and verified on port `3000` with appropriate HTTP status codes (`200` and `404`).
-

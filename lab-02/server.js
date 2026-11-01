@@ -6,7 +6,7 @@ const sqlite3 = require("sqlite3");
 const app = express();
 app.use(express.json());
 
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 const dbPath = path.join(__dirname, "database", "books.db");
 
 let db = null;

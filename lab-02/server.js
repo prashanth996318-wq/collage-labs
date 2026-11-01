@@ -66,6 +66,20 @@ async function initializeDBAndServer() {
   }
 }
 
+// Root route for health check and browser verification
+app.get("/", (req, res) => {
+  res.status(200).json({
+    message: "Lab 2: SQLite Database and CRUD Routes Server is running",
+    endpoints: [
+      "GET /books/",
+      "GET /books/:bookId/",
+      "POST /books/",
+      "PUT /books/:bookId/",
+      "DELETE /books/:bookId/",
+    ],
+  });
+});
+
 // Endpoint 1: GET /books/ -> Get all books
 app.get("/books/", async (req, res, next) => {
   try {

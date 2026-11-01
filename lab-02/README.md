@@ -10,7 +10,7 @@ Section: CSE(Q.E)-2A
 
 ## Live Link
 
-Not deployed yet
+ https://lab-02-sqlite-server-420y.onrender.com
 
 *(Note: Because this lab uses a local file-based SQLite database (`database/books.db`) and tests stateful CRUD operations locally via Postman and SQLite inspection, screenshots of all CRUD endpoints in Postman and the SQLite database verification are included below as required by the lab manual.)*
 

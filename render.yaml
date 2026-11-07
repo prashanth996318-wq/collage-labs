@@ -20,3 +20,14 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 22.14.0
+
+  - type: web
+    name: lab-03-rest-server
+    runtime: node
+    rootDir: lab-03
+    buildCommand: npm install && npm rebuild sqlite3 --build-from-source && npm run init-db
+    startCommand: node server.js
+    plan: free
+    envVars:
+      - key: NODE_VERSION
+        value: 22.14.0

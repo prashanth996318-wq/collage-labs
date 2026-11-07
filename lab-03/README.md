@@ -10,7 +10,7 @@ Section: CSE(Q.E)-2A
 
 ## Live Link
 
-Not deployed yet
+https://lab-03-rest-server.onrender.com
 
 ## Project Description
 
